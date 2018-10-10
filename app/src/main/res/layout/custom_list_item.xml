@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="16dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textViewSection"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:background="@drawable/section_circle"
+        android:textColor="@color/text"
+        android:maxLines="1"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed"
+        android:ellipsize="end"
+        tools:text="Sc"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:layout_weight="80"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        tools:text="Lionel Messi shines against Tottenham as he scores two goals out of the four scored by barcelona"
+        tools:textColor="@color/text"
+        tools:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:maxLines="2"
+            android:gravity="bottom"
+            android:textSize="12sp"
+            android:textColor="@color/textLight"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed"
+            android:ellipsize="end"
+            tools:ignore="NestedWeights"
+            tools:text="by Batman"/>
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:maxLines="2"
+            android:gravity="top"
+            android:textSize="12sp"
+            android:textColor="@color/textLight"
+            android:fontFamily="sans-serif-condensed"
+            android:ellipsize="end"
+            tools:text="05/10/2018"/>
+
+    </LinearLayout>
+
+</LinearLayout>

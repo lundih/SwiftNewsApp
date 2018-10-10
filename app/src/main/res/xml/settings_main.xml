@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_content_default"
+        android:inputType="textAutoComplete"
+        android:key="@string/settings_content_key"
+        android:title="@string/settings_content_label"
+        android:dialogIcon="@drawable/ic_content"
+        android:icon="@drawable/ic_content"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label"
+        android:dialogIcon="@drawable/ic_reorder"
+        android:icon="@drawable/ic_reorder"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_article_count_default"
+        android:entries="@array/settings_article_count_labels"
+        android:entryValues="@array/settings_article_count_values"
+        android:key="@string/settings_article_count_key"
+        android:title="@string/settings_article_count_label"
+        android:dialogIcon="@drawable/ic_numbers"
+        android:icon="@drawable/ic_numbers"/>
+
+</PreferenceScreen>

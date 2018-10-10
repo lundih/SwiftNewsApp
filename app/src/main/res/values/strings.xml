@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Swift News</string>
+    <string name="text_view_no_internet">Seems As Though There\'s No Internet Connection.</string>
+    <string name="text_view_no_news_found">Bad News&#8230; We Can\'t Find The News.</string>
+    <string name="text_to_go_with_date">on</string>
+    <string name="text_to_go_with_author">by</string>
+    <string name="text_to_go_with_time">at</string>
+    <string name="menu_settings_title">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Strings for Content preference -->
+    <string name="settings_content_label">Choose Preferred Content (separate with a white space)</string>
+    <string name="settings_content_key" translatable="false">content</string>
+    <string name="settings_content_default" translatable="false">football sports sport science physics biology chemistry art books technology</string>
+
+    <!-- Strings for Order By preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+    <!-- Label for order by newest option -->
+    <string name="settings_order_by_newest_label">Newest First</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <!-- Label for order by relevance option -->
+    <string name="settings_order_by_relevance_label">Most Relevant First</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Strings for Article Count preference-->
+    <string name="settings_article_count_label">Number Of Articles</string>
+    <string name="settings_article_count_key" translatable="false">article_count</string>
+    <string name="settings_article_count_default" translatable="false">@string/settings_article_count_30_value</string>
+    <!-- Label for 10 articles option -->
+    <string name="settings_article_count_10_label">10</string>
+    <string name="settings_article_count_10_value" translatable="false">10</string>
+    <!-- Label for 20 articles option -->
+    <string name="settings_article_count_20_label">20</string>
+    <string name="settings_article_count_20_value" translatable="false">20</string>
+    <!-- Label for 30 articles option -->
+    <string name="settings_article_count_30_label">30</string>
+    <string name="settings_article_count_30_value" translatable="false">30</string>
+    <!-- Label for 40 articles option -->
+    <string name="settings_article_count_40_label">40</string>
+    <string name="settings_article_count_40_value" translatable="false">40</string>
+    <!-- Label for 50 articles option -->
+    <string name="settings_article_count_50_label">50</string>
+    <string name="settings_article_count_50_value" translatable="false">50</string>
+
+</resources>
